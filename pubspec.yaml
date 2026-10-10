@@ -1,0 +1,23 @@
+name: flutter_app
+description: A professional task manager built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  adhan: ^2.0.0
+  geolocator: ^10.1.0
+  flutter_compass: ^0.7.0
+  just_audio: ^0.9.36
+  audio_service: ^0.18.12
+  google_generative_ai: ^0.2.2
+  http: ^1.2.0
+  flutter_local_notifications: ^17.0.0
+
+flutter:
+  uses-material-design: true
